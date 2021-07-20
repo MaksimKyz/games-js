@@ -1,0 +1,14 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+#canvas{
+	width: 1535px;
+	height: 718px;
+	background:"#666" ;
+
+}
+

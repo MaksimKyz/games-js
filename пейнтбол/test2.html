@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			background-color: #666;
+		}
+		canvas{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			background-color: #000;
+		}
+		.scoreLeft{
+			position: absolute;
+			left: 35%;
+			top: 25%;
+			transform: translate(-35%,-20%);
+			font-size: 20px;;
+		}
+		.scoreRight{
+			position: absolute;
+			left: 65%;
+			top: 25%;
+			transform: translate(-65%,-20%);
+			font-size: 20px;;
+		}
+	</style>
+</head>
+<body>
+	<div class="scoreLeft">0</div>
+	<div class="scoreRight">0</div>
+	<canvas width="500px" height="300px" id="canvas"></canvas>
+	<script src="./style/js.js"></script>
+</body>
+</html>
